@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+u=[0.1]
+v=[0.1]
+w=[0.1]
+
+for i in range(0,300):
+    x=12*u[i]-1.1
+    y=10*v[i]-0.9
+    z=2*w[i]-0.1
+    u.append(x)
+    v.append(y)
+    w.append(z)
+
+for i in range(0,300):
+    print('u'+str(i)+'='+str(u[i])+'   '+'v'+str(i)+'='+str(v[i])+'   '+ 'w'+str(i)+'='+str(w[i])+'   ')
